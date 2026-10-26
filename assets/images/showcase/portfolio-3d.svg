@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FB3CC"/>
+      <stop offset="0.55" stop-color="#D9DCCB"/>
+      <stop offset="1" stop-color="#F1DFB8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.22" cy="0.38" r="0.35">
+      <stop offset="0" stop-color="#FFF0CC" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFF0CC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="path" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#B89C72"/>
+      <stop offset="1" stop-color="#D8C49E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 560 C240 500 420 540 640 505 C860 470 1100 520 1600 470 L1600 1000 L0 1000Z" fill="#9DB08F"/>
+  <path d="M0 640 C300 590 560 640 820 600 C1080 560 1320 610 1600 580 L1600 1000 L0 1000Z" fill="#7F9A4A"/>
+  <path d="M0 740 C320 700 620 760 900 715 C1180 670 1400 720 1600 700 L1600 1000 L0 1000Z" fill="#5E7F3E"/>
+  <!-- path to the house -->
+  <path d="M640 1000 C700 900 860 860 820 780 C790 720 900 690 980 640 L1010 645 C950 700 860 730 880 790 C910 870 820 930 860 1000Z" fill="url(#path)"/>
+  <!-- trees -->
+  <g fill="#46642F">
+    <circle cx="180" cy="560" r="70"/><circle cx="250" cy="590" r="55"/><rect x="172" y="600" width="16" height="70" fill="#6B5643"/>
+    <circle cx="1380" cy="540" r="80"/><circle cx="1460" cy="575" r="60"/><rect x="1372" y="590" width="16" height="80" fill="#6B5643"/>
+    <circle cx="1240" cy="600" r="45"/><circle cx="420" cy="620" r="40"/>
+  </g>
+  <!-- house -->
+  <g transform="translate(940 470)">
+    <rect x="0" y="70" width="190" height="130" fill="#F4EEDF"/>
+    <rect x="-4" y="190" width="198" height="18" fill="#8E8678"/>
+    <path d="M-16 74 L95 0 L206 74Z" fill="#3A3F44"/>
+    <rect x="140" y="10" width="20" height="40" fill="#8E8678"/>
+    <rect x="80" y="130" width="30" height="60" fill="#1F3A2E"/>
+    <rect x="22" y="95" width="34" height="30" fill="#FFB766" opacity="0.8"/>
+    <rect x="134" y="95" width="34" height="30" fill="#FFB766" opacity="0.8"/>
+    <rect x="22" y="140" width="34" height="30" fill="#FFB766" opacity="0.6"/>
+    <rect x="134" y="140" width="34" height="30" fill="#FFB766" opacity="0.6"/>
+  </g>
+  <!-- cat -->
+  <g transform="translate(760 840)">
+    <ellipse cx="0" cy="58" rx="60" ry="10" fill="#000" opacity="0.15"/>
+    <ellipse cx="0" cy="20" rx="46" ry="28" fill="#D98A43"/>
+    <circle cx="44" cy="-8" r="24" fill="#D98A43"/>
+    <path d="M30 -26 L34 -46 L46 -30Z M50 -28 L60 -46 L64 -24Z" fill="#D98A43"/>
+    <rect x="-34" y="36" width="10" height="22" rx="5" fill="#D98A43"/>
+    <rect x="22" y="36" width="10" height="22" rx="5" fill="#D98A43"/>
+    <path d="M-44 10 C-80 -10 -70 -50 -50 -56" stroke="#D98A43" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="52" cy="-10" r="3" fill="#22262A"/>
+  </g>
+  <!-- title card -->
+  <g transform="translate(96 96)">
+    <rect width="560" height="200" rx="24" fill="#FBFAF6" opacity="0.92"/>
+    <text x="40" y="70" font-size="20" font-weight="700" letter-spacing="3" fill="#7A5534">PERSONAL PROJECT</text>
+    <text x="40" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="600" fill="#1F3A2E">Follow the Cat</text>
+    <text x="40" y="168" font-size="22" fill="#4A5056">React · Three.js · React Three Fiber · GSAP</text>
+  </g>
+</svg>

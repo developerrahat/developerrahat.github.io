@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F3A2E"/>
+      <stop offset="1" stop-color="#2E5240"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0 470 C260 420 480 470 720 430 C930 395 1060 440 1200 420 L1200 630 L0 630Z" fill="#6E8B5A" opacity="0.45"/>
+  <path d="M0 540 C300 500 560 550 820 515 C1000 490 1100 520 1200 510 L1200 630 L0 630Z" fill="#6E8B5A" opacity="0.6"/>
+  <g transform="translate(80 120) scale(2.4)">
+    <path d="M9 18 13 6l7 8h8l7-8 4 12v14c0 7-6.5 12-15 12S9 39 9 32z" fill="#F4EEDF"/>
+    <text x="24" y="33" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-weight="800" font-size="15" fill="#1F3A2E">RH</text>
+  </g>
+  <text x="80" y="330" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="2" fill="#F4EEDF">MD. RAHAT HOSSEN</text>
+  <text x="80" y="388" font-family="'Segoe UI', Arial, sans-serif" font-weight="600" font-size="30" fill="#F3DFAE">Full-Stack Developer | WordPress Expert</text>
+  <text x="80" y="450" font-family="'Segoe UI', Arial, sans-serif" font-size="22" letter-spacing="4" fill="#E2B25A">FOLLOW THE CAT. EXPLORE MY WORLD.</text>
+</svg>
